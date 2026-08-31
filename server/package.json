@@ -1,0 +1,13 @@
+{
+  "name": "becare-socket-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.3",
+    "cors": "^2.8.5"
+  }
+}
